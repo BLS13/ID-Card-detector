@@ -1,0 +1,36 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Dataset and model files
+data/
+data_augmented/
+dataset.csv
+model_cnn.h5
+training_logs/
+checkpoints/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Misc
+logs/
+*.log
